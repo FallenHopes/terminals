@@ -64,7 +64,7 @@ export const Pinpad = ({ auth, page }) => {
             }
             else if (focused === 'pincode'){
                 let str = loginForm.pincode
-                if (str.length === 5){
+                if (str.length === 4){
                     return false
                 }
                 str += e.target.textContent
